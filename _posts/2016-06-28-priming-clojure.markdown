@@ -1,0 +1,14 @@
+---
+layout: post
+title:  Priming up Clojure
+date:   2016-06-28 16:45:29 +0530
+categories: clojure 
+---
+
+When I first started with Perl everything seemed very magical for me and it was a lot of fun. Need to scrape text from 4k pages of a website? Cool. Done. Need to do extract some pattern of text or perhaps save the world? Cool. Done. As you grow with Perl you also grow with regex ofcourse. Suddenly you think of a different way to solve a simple problem with regular expressions. Why? Because its clever to do so for now. With the joy of Perl I came across the book "Higher Order Perl" by "Mark Jason Dominus" which stated that it shares most of the characteristics with Lisp. I took an intial look and bewildered around why such a language is compared with Perl. Maybe that the author intended a pun on the language by potraying a Perl as little estoreic but it turned out it was not so. As you lurk around different communities or with more proggit Lisp. I got even more suspicious about as many prestigious universities and many renowned hackers always laud about the power of Lisp.
+
+*"Lisp is worth learning for the profound enlightenment experience you will have when you finally get it; that experience will make you a better programmer for the rest of your days, even if you never actually use Lisp itself a lot."  - Eric S. Raymond, "How to Become a Hacker"*
+
+Hence I thought of playing around with Lisp and came to find out that Lisp comes in different flavours and Scheme seemed to be a good one as the famous SICP book was using it which deserves an another post. I installed MIT-Scheme and started doing some little exercises with fair experience of Python's map, filter and reduce everything looked a little familiar except that the language encouraged to think in terms of maps and filters unlike Python which has limited functional programming constructs. The parenthesis started annoying me a lot like the typical Lisp beginner experience. It was really hard to visualise the code and recursion seemed very stupid and inefficient from Python's perspective and Lisp does require a significant amount of change in the thought process. Its always a hard thing to look something from an entirely different perspective as learning usually involves associating things with previous experiences and coming up with conclusions. Finally I have decided to give a good go at a Lisp and post back my experiences here.
+
+I have chosen Clojure as it seems a fairly good Lisp with JVM as its host language giving access to a wide range of Java libraries and I also got inspired by Rich Hickey's presentations.

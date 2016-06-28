@@ -1,0 +1,13 @@
+# Site settings
+title: xtreak blog
+email: tir.karthi@gmail.com
+description:
+  A blog about programming, mistakes and eureka
+baseurl: ""
+url: "http://tirkarthi.github.io"
+twitter_username: tirkarthi
+github_username: tirkarthi
+
+# Build settings
+markdown: kramdown
+excerpt_separator: <!--more-->
