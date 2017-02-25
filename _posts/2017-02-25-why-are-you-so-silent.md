@@ -23,7 +23,7 @@ So this gets me to the next set of question do you really need to talk a lot to 
 
 I am more open and expressive but I don't talk a lot. Little contradicting but let me come up with something. Sometimes I find myself much more effective in communicating with others with writing a lot because you tend to put more care and effort compared to speaking all the time. Also listening well tends to bring up new things perceptions. When I talk I talk well too and many would have noted when I talk for the first time like "Hey! he does talk!" . So its more like you need to be expressive and silent too. My replies tend to be very long walls of text filled with redundant and explicit details as this one. Brevity is the wit of the soul and this idiot needs to learn a lot :)
 
-#### **Well you can't progress and make a lot of money when you don't speak**
+#### **Well you can't progress and make a lot of money when you don't talk a lot**
 
 I don't know where this metric comes from at all but I haven't found this to be true yet. When man is a political animal and even though one doesn't like politics one must to know enough politics for survival and safety. So necessary amount of politics is ok in this regard. I am bit lacking in this area with respect to influencing people but I am good with my progress and money that I don't find it a problem at all. Luckily these rules also go in hand with my programming goals where skill gets you good bucks and enough bang for the buck. But I will fail when I am present in a field that essentially needs talking but I am not interested in those as of now. Maybe you do. All the best!
 
