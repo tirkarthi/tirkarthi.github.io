@@ -43,7 +43,7 @@ People move on except with the fact that they leave over a large amount of memor
 
 You have to make a push towards the goal with a better introspection and added endurance. So after a point of time what seemed to be a disaster turned out to be an opportunity in disguise to make yourself better. So time never heals anything it just gives you enough opportunities to push you out of comfort zone and screws you up sometime. Everyone has to deal with them in their own way towards the goal with no universal recipe. I am not trying to spray "All is well" and "Expectations always hurt" attitude all over. Its just that people don't fit anymore never makes either of the person or the relationship in question a bad thing. Its the attitude and endurance towards these situations that carve us out to handle them better in case they happen again in the near future. Time never heals things its just that the perception towards the scenario changes over the course of time and those once strong thoughts dilute after sometime and things become good again. The dilution never tells you anything bad about the relationship that doesn't make sense anymore. Such is life.
 
-#### Hey, are you alright?
+#### **Hey, are you alright?**
 
 So some of those who got this far must be thinking along.
 
