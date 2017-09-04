@@ -11,3 +11,5 @@ I am Karthikeyan. I write Python for food and fun at day and its mostly clojure 
 Oh yes! I do have a life!
 
 Not a great designer by the way the whole blog is possible due to the work of Jekyll.
+
+Disclaimer : The content on the blog are views on my own and doesn't represent the views of my employer current, past and future. It also doesn't represent views about any particular person unless otherwise specified.
