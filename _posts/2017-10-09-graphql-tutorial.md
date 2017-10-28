@@ -5,6 +5,8 @@ date:   2017-10-09 07:00:29 +0530
 categories: clojure
 ---
 
+*Thanks to Walmart Labs for their Lacinia library and the helpful members at the Slack channel*
+
 ### Early days of REST
 
 Most of us use REST everyday for building our web applications and I think it's a great step forward from the early days of writing HTML where every endpoint was pretty tightly coupled to the resource you are trying to access like `get-books`, `update-book`, `delete-book`, etc. Apart from the naming every project used to follow different conventions which was a hurdle as we move from one project to another and REST fixed a lot of the problems. But we hit some limitations of REST in our daily programming as the teams were split into backend and frontend.
