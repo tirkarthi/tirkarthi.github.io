@@ -33,13 +33,43 @@ You can execute the programs at the [online editor](https://swish.swi-prolog.org
 
 ![prolog-site](/images/swish_prolog_demo.png)
 
+We can ask questions to Prolog for the see if there is a fact in the database for the given value. Prolog will return true or false based on the value. The are entered in the query window of the above editor.
+
+```prolog
+> man(john).
+true
+> man(adam).
+false
+```
+
+On a similar note we can ask Prolog for the values that can fit in the fact or relation. We can ask the values of X that will is applicable to the given set of facts. When there is more than one match Prolog waits for the input to continue deducing more values for the variable. `;` during printing solutions asks for more solutions and `.` exits the query.
+
+```prolog
+> man(X).
+X = john ;
+X = george .
+true
+> woman(X).
+X = kim .
+true
+> likes(john, X).
+X = cats .
+true
+```
+
 Prolog variables start with capital letters and hence cannot be used inside facts. As you can see Prolog facts are much more human readable and the facts doesn't require any declaration like we do for a function in languages. We simply state the facts and we can state the relation as below : 
 
 ```prolog
 relation(X, Y, Z) :- man(X), woman(Y), likes(X, Z), likes(Y, Z).
 ```
 
-So a relation consists of three factors a man (X), a woman (Y) and something they like in common (Z). The rules indicated by comma signify that all the rules have to be satisfied in order to have the values for X, Y and Z. We declare the constraints and Prolog will try to replace some value of X such that it satisfies the fact. So X can have the values john and george. Similarly Y can only be kim. In a similar fashion let us define the common thing they like to be Z so X is a man who likes Z and Y is a woman who also likes Z. We try to fit george in this condition but there are no woman in the facts that likes dogs thus eliminating george to be a solution for X. In case of john he likes cats and we also have kim who also likes cats. Hence Prolog gives us the solution as `X = john, Y = kim, Z = cats`. The underlying method used to deduce the values is called unification.
+So a relation consists of three factors a man (X), a woman (Y) and something they like in common (Z). The rules indicated by comma signify that all the rules have to be satisfied in order to have the values for X, Y and Z. We declare the constraints and Prolog will try to replace some value of X such that it satisfies the fact. So X can have the values john and george. Similarly Y can only be kim. In a similar fashion let us define the common thing they like to be Z so X is a man who likes Z and Y is a woman who also likes Z. We try to fit george in this condition but there are no woman in the facts that likes dogs thus eliminating george to be a solution for X. In case of john he likes cats and we also have kim who also likes cats. Hence Prolog gives us the solution as `X = john, Y = kim, Z = cats`. The underlying method used to deduce the values is called unification. The query for the above follows the same as other examples
+
+```prolog
+> relation(X, Y, Z).
+X = john, Y = kim, Z = cats .
+true
+```
 
 As you can see from the above Prolog makes us approach the problem from a very different perspective. Let me add one more powerful feature that we will be using to solve the coloring problem. One of the common problems is to figure out if we can reach from point A to B under some given constraints. So let us take the following facts that define the edges of a graph taking the points as the parameter
 
@@ -74,6 +104,8 @@ This tutorial assumes that Clojure and lein are installed on your system. This p
 ```clojure
 (ns coloring-india.core
   (:require [clojure.core.logic :refer :all]
+            [clojure.core.logic.fd :refer :all]
+            [cheshire.core :refer :all]
             [clojure.core.logic.pldb :refer :all]))
 
 (db-rel man name)
@@ -82,7 +114,7 @@ This tutorial assumes that Clojure and lein are installed on your system. This p
 
 ```
 
-The above code imports the functions and declares the relations. `db-rel` is a macro that takes the name of the fact as first argument followed by the arguments for the fact. We can declare a fact as below : 
+The above code imports the functions for core.logic and JSON parsing along with declaring the relations. `db-rel` is a macro that takes the name of the fact as first argument followed by the arguments for the fact. We can declare a fact as below : 
 
 ```clojure
 (db-fact (db) man 'john)
@@ -143,6 +175,15 @@ Similar to the prolog example Clojure also has `conde` which lets us define to r
           (== q [X Y])))
 
 => ([a e])
+
+(run-db 1 facts [q]
+        (fresh [X Y]
+          (== X 'b)
+          (== Y 'f)
+          (path X Y)
+          (== q [X Y])))
+    
+=> ()
 ```
 
 ### Coloring problem
@@ -259,7 +300,7 @@ D3.js provides support to plot geographical data in the form of maps. We can loa
 
 ### Not so great things
 
-Aside from all the cool things that can be done with logic programming it gives us a fresh breath of ideas and abstractions to play around with. But it is also not something magical in its working that there is no ecosystem around the logic programming community though a lot of cool things can be done with it. I also hit some scalability issues like I tried to unify the entire nation's district around 600 lvars which caused the SWI-prolog implementation to segfault that reminds me of the fact that there is also a cost towards the abstractions that we leverage.
+Aside from all the cool things that can be done with logic programming it gives us a fresh breath of ideas and abstractions to play around with. But it is also not something magical in its working that there is no ecosystem around the logic programming community though a lot of cool things can be done with it. I also hit some scalability issues like I tried to unify the entire nation's district around 600 lvars which caused the SWI-prolog implementation to segfault that reminds me of the fact that there is also a cost towards the abstractions that we leverage. Thus I was not able to completely solve the problem on country level and had to solve it for different states and combine the solutions together.
 
 ### Conclusion
 
