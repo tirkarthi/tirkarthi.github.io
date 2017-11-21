@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-I am Karthikeyan. I write Python for food and fun at day and its mostly clojure in these nocturnal nights. I fell in love with programming when I got amazed by monads and endofunctors. Type level shenanigans blew my mind. Ofcourse thats crazy. I program because its fun. When it doesn't I eat dosa and sleep. I always look forward to learn and tackle interesting things though they beat me down to knees very easily.
+I am Karthikeyan. I got introduced to computers by 13, the age of marquee tags and IE. I am an autodidact. I have been programming professionally since 2014. I write Python for food and fun at day and mostly clojure in these nocturnal nights.  This blog started about programming and then turned about to be a personal blog about my mistakes and opinions :) 
+
+Flavour of music for code : Linkin Park, Eminem and A.R. Rahman 
 
 *"You got to find what you love.. And like any great relationship it just gets better and better as the years roll on" - Steve Jobs, Stanford Commencement*
 
