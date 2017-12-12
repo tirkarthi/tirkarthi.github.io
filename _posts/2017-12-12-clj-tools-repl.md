@@ -75,7 +75,7 @@ Hello, World!
 * Clojure
 
 ```shell
-➜  hello-world $ clj -e  'println("Hello, World!")'
+➜  hello-world $ clj -e  '(println "Hello, World!")'
 Hello, World!
 ```
 
