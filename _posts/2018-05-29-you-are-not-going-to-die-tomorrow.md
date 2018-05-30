@@ -7,6 +7,8 @@ categories: life
 
 _Note : This is just a perspective on consumption and my thoughts along with mistakes over the period of years. It's not a financial advice and by no means a personal attack._
 
+**Credits : Thanks to Kanmani Chandra Rajan for her insightful feedback and discussion without which this post would not be possible**
+
 Few days back I came across a WhatsApp story on consumption being one of the causes of environmental hazards that we face today along the fact that we continue to damage even with the effects being understood and demonstrated. So I took some time today to write about my own experience through the course of the years as a series.
 
 #### Lives are built on consumption
