@@ -63,3 +63,31 @@ You offered a different perspective
 When I was worried at Retrospective  
 Yet, three days and just wrote "int"  
 That's my story for the Sprint  
+
+### node_modules folder
+
+It will be great one day  
+He told her  
+Angular 2 incompatible with Angular 4  
+His face became pale and colder  
+Just another framework to learn  
+She pat on his shoulder  
+Opened medium modern JavaScript for dinosaur  
+He felt a little bit older  
+Depressed and devastated, he jumped off the cliff  
+Fell and died inside his node_modules folder  
+
+### Friday fixes
+
+When the sun shines  
+Make hay they say  
+Filled with darkness  
+Alone in the bay  
+Looks at the regression report  
+To see what does it say  
+5k chars in a character field  
+DIV is pushed far away  
+Losing faith in humanity  
+Day by day  
+Cringes at the bug saying aloud  
+Never push a fix by Friday  
