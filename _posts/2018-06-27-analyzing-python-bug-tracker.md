@@ -7,6 +7,12 @@ categories: python
 
 I was looking to contribute to CPython and I made my first PR which consisted of running aspell through the code looking for typos. I was quite amazed at how smooth the process is. CPython moved to GitHub last year and this has opened up to a lot of integrations like GitHub bots, PR being linked to the issue tracker and so on. This also helps people who want to contribute to the project to be up and running with less friction. CPython was using subversion before moving to mercurial in 2011. They again moved to git and GitHub last year. You can read the full history in the [post](https://snarky.ca/the-history-behind-the-decision-to-move-python-to-github/) by Brett Cannon. From time to time there were also easy issues that are triaged by the core developers for beginners to pick along with providing mentorship. This also helps in growing the team of contributors who can help in fixing and triaging the issues.
 
+Similar posts I wrote on Clojure and Rust ecosystem.
+
+* [Analyzing around 10k modules in Clojure ecosystem to find JDK 9 issues](https://tirkarthi.github.io/clojure/2018/03/17/data-mining-clojars.html)
+* [Analyzing crates.io to find top rust dependencies and insecure dependencies](https://tirkarthi.github.io/rust/2018/03/30/analyzing-crates-data.html)
+
+
 ### Obtaining bugs.cpython.org data
 
 I wrote a little scraper that downloads each issue and since it's a static page we need to parse the page to obtain relevant information. Since this is a quick hack I thought MongoDB will be a good fit where you can just dump the data as JSON and query easily. Hence a issue along with the title, python version against which it's filed and comments looks as below. The code and JSON files are available on [GitHub](https://github.com/tirkarthi/cpython-bugs)
