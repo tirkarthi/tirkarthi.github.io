@@ -294,9 +294,9 @@ OK
 ```
 
 ```shell
-➜  redis-streams git:(master) ✗ time clj src/producer.clj
-Inserted records successfully in  7  seconds
-clj src/producer.clj  45.88s user 2.49s system 225% cpu 21.458 total
+➜  redis-streams git:(master) ✗ time clj -m producer
+Inserted 86400 records successfully in  2299  ms at the rate of  37.58155719878208  records per ms
+clj -m producer  32.05s user 1.00s system 280% cpu 11.764 total
 ```
 Alice
 
