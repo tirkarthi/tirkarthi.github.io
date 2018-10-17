@@ -6,7 +6,7 @@ permalink: /about/
 
 Hey there!
 
-I am Karthikeyan. I got introduced to computers by 13, the age of marquee tags and IE. I am a self-taught developer. I have been programming professionally since 2014. I write Python for food and fun at day. I mostly use Clojure outside work. In terms of food, I love dosa, koala biryani (Thalapakati) and plain Vanilla (Not vanilla JavaScript though :). I Reddit a lot. I occassionally read books with stoicism, (auto)?biographies and short novels being my picks. This blog started about programming and then turned about to be a personal blog about my mistakes and opinions. I mostly write here openly in a way that I can look back my life about both progress and mistakes. So you might find some posts interesting and others depressing. I also write [poems with puns](/poems/) and [draw comics](/comics/)
+I am Karthikeyan. I am a self-taught developer and I have been programming professionally since 2014. I write Python for food and fun at day. Outside of work, I am a CPython core triager and write a little bit of Clojure. In terms of food, I love dosa, koala biryani (Thalapakati) and plain Vanilla (Not vanilla JavaScript though :). I Reddit a lot. I occassionally read books with stoicism, (auto)?biographies and short novels being my picks. This blog started about programming and then turned about to be a personal blog about my mistakes and opinions. I mostly write here in an open manner so that I can look back at my life about both progress and mistakes. So you might find some posts interesting and others depressing. I also write [poems with puns](/poems/) and [draw comics](/comics/)
 
 Flavour of music for code :
 
