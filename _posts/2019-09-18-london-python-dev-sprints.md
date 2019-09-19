@@ -47,7 +47,7 @@ I could go on about lot of the events but I will guess I will stop here :) Looki
 
 ### Getting to Chennai
 
-I could also list down the cultural shifts to me as I got to London. I got to flight early and was just shopping around given the frugal part of me. I also did the worst possible mistake of not sleeping at the plane and went on to watch 5 seasons of Chernobyl consecutively which lead to a Chernobyl in my own sleep cycle for few days.
+I could also list down the cultural shifts to me as I got to London. I got to flight early and was just shopping around given the frugal part of me. I also did the worst possible mistake of not sleeping at the plane and went on to watch 5 episodes of Chernobyl consecutively which lead to a Chernobyl in my own sleep cycle for few days.
 
 * I overpacked since it's firs time and will *try* to be more organised for future events which means I bought less chocolate back home :(
 * Eating with spoon given that in India I always used to eat by hand. I sometimes ordered very different things. Sometimes I didn't know the difference and ate out of order ;)
