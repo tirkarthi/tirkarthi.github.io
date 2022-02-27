@@ -12,7 +12,7 @@ SQLite [3.38.0](https://www.sqlite.org/releaselog/3_38_0.html) introduced improv
 
 > The JSON functions are now built-ins. It is no longer necessary to use the -DSQLITE_ENABLE_JSON1 compile-time option to enable JSON support. JSON is on by default. Disable the JSON interface using the new -DSQLITE_OMIT_JSON compile-time option. 
 
-With the release of 3.38.0 JSON support is on by default. SQLite also provides pre-built binaries for Linux, Windows and Mac. For Linux you can get started with below
+With the release of 3.38.0 JSON support is on by default. SQLite also provides pre-built binaries for Linux, Windows and Mac. For Linux you can get started with below. For other platforms please visit [downloads](https://www.sqlite.org/download.html) page.
 
 ```shell
 wget https://www.sqlite.org/2022/sqlite-tools-linux-x86-3380000.zip
@@ -31,6 +31,8 @@ cd sqlite-autoconf-3380000
 make
 ./sqlite3
 ```
+
+[JSON enhancements proposal thread](https://sqlite.org/forum/forumpost/152354d5c474067e) in SQLite forum
 
 ### Sample data
 
@@ -78,14 +80,23 @@ id  name  interests
 1   John  {"likes": ["skating", "reading", "swimming"], "dislikes": ["cooking"]}
 ```
 
-The above query can be further simplified removing `$`
+The above query can be further simplified removing `$` and for integers even removing quotes.
 
 ```sql
 
 select id, name, interests from user 
 where interests->'likes'->>'[0]' = 'skating';
 
-id  name  interests                                                   
+id  name  interests
+--  ----  ------------------------------------------------------------
+1   John  {"likes": ["skating", "reading", "swimming"], "dislikes": ["cooking"]}
+
+-- As per reddit comment in r/sql for integers even [] is optional
+-- Rules https://github.com/sqlite/sqlite/blob/a0318fd7b4fbedbce74f133fb0f84ff4a19ea075/src/json.c#L1554
+
+select id, name, interests from user
+where interests->'likes'->>0 = 'skating';
+id  name  interests
 --  ----  ------------------------------------------------------------
 1   John  {"likes": ["skating", "reading", "swimming"], "dislikes": ["cooking"]}
 ```
