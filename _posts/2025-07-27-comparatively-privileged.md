@@ -1,0 +1,19 @@
+---
+layout: post
+classes: wide
+title:  Comparatively privileged
+date:   2025-07-27 00:00:29 +0530
+categories: life
+---
+
+7.42 AM, I was scampering through the road trying to adjust the bag on the shoulders. It was a cloudy and gloomy morning. A quiet and breezy street given the bustling nature of AECS layout on a Sunday night. I was trying to remember if I locked the house though I did and checked it. Maybe a sign of general adulthood paranoia. I got into the cab greeted by a good morning and a quick check on the OTP. The street was picking up pace with school buses racing. The quick commerce dark store allotting the deliveries. The supermarket was open already with people inspecting the vegetables to buy. A typical Monday morning.
+
+I was gazing at the recently opened Nandini parlor that was just in front of the cab. The shopkeeper was segregating milk packets and other items gearing up for the day. An old lady slowly reached the store and started to pour over the dustbin. She started to pick up the PET bottles amidst the ice cream cups in the trash. I suppose she deposits them back to another person for some cash to feed herself. She was shooing away the dog that was trying to find something to fulfill its own interests. She filled her sack and crossed the road towards a roadside shop that was setting up to cater breakfast for the e-commerce delivery people. The cab started moving and so was the general traffic since it was few minutes past 8.
+
+Looking back I wonder the comparative privileges I have day to day despite all the doom and gloom of layoffs due to AI shaking up the industry lately. As much as comparison is a thief of joy things are different looking in the other direction. As people compare themselves in the social pyramid always looking upwards it gives a different picture as you look down the pyramid. Sometimes you can just look at your past self to appreciate all the growth. Typing this on a Sunday noon with a Donne biryani filling the tummy it was a weekly daydream 11 years back on a fresher salary to eat kothu parota once on a Friday night in Chennai. Something that I ocassionally say to my dear wife that there is always 100 people behind and 100 people ahead of you in a country of more than billion dreams as she makes beloved wheat rava upma complaining about lack of real estate investments in my portfolio.
+
+One of the rampant things I always fear about is the invisible lifestyle inflation as I grow along. All the conveniences in life do come at a cost. So what if there is a day where life throws a brick at you. The help and privilege might not be there for a day or for a long time. This leads to a situation where you have to do the chore by yourself. I guess few days like that also brings the humility and compassion towards the person doing it giving you a picture of the other side of the coin. Especially in a family it really makes you appreciate each other given the collective effort it takes to run a house even for a day let alone for decades. It also quickly dissolves the ocassional minor inconveniences like an extra green chilli that made it the sambhar extra spicy as something I myself would have done when cooking. Maybe someday when I resort to cooking upma so that she can switch to resolving a cache related bug with the help of AI.
+
+I feel it is a good perspective thing to pass along to the next generation as convenience through e-commerce, quick commerce, etc. increases with younger ones experiencing them early leading to instant gratification. As convenience improves and new jobs based on them are created I hope there is no significant loss in realization of the value and cost of everyday things. Back then there used to be a subject called Moral Science in my old school days filled with byte sized stories and I hope they are not replaced by Maxwell equation problems related to entrance these days.
+
+*Pushes to git and stares at the heap of clothes to fold*
